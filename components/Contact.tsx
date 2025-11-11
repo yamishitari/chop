@@ -3,7 +3,7 @@ import React from 'react';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className="py-20 lg:py-32 bg-brand-dark text-brand-cream">
+    <div className="py-20 lg:py-32 bg-brand-charcoal text-brand-cream">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-4xl lg:text-5xl font-serif font-bold mb-8">
@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -3,11 +3,11 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 lg:py-32 bg-white">
+    <div className="py-20 lg:py-32 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="order-2 md:order-1">
-            <h2 className="text-4xl lg:text-5xl font-serif font-bold text-brand-dark mb-6">
+            <h2 className="text-4xl lg:text-5xl font-serif font-bold text-brand-charcoal mb-6">
               Our Story
             </h2>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
@@ -27,7 +27,7 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

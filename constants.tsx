@@ -2,6 +2,13 @@
 import React from 'react';
 import { MenuItem, MenuItemCategory } from './types';
 
+export const COLORS = {
+  espresso: '#4b3832',
+  cream: '#f5f5dc',
+  gold: '#c89c52',
+  charcoal: '#36454f',
+};
+
 export const MENU_ITEMS: MenuItem[] = [
   {
     id: 1,
